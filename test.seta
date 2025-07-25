@@ -1,0 +1,6 @@
+PUSH hello.txt
+DEL_FILE test1.txt
+DEL_FILE test2.txt
+DEL_FILE test3.txt
+PRINT
+END
