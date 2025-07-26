@@ -2,7 +2,7 @@
 CC = gcc
 CFLAGS = -Wall -Wextra -Iinclude -std=c17
 LDFLAGS =
-TARGET = build/app
+TARGET = build/seta
 
 # Source and object files
 SRC = $(wildcard src/*.c)

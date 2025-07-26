@@ -4,6 +4,7 @@ delete_record_t *delete_record_new(char *filename, int unix_time)
 {
     delete_record_t *record = malloc(sizeof(delete_record_t));
     record->filename = filename;
+    record->data = NULL;
     record->unix_time = unix_time;
     return record;
 }

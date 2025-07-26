@@ -8,6 +8,7 @@
 // to the system in some way
 struct DeleteRecord {
     char *filename;
+    char *data;
     int unix_time;
 };
 

@@ -42,7 +42,7 @@ uint8_t *parse_program(const char *filename, size_t *out_size) {
             code_size += arg_len;
             code[code_size++] = '\0'; // Null-terminate the string
         }
-        else if (strcmp(opcode_str, "DEL_FILE") == 0) {
+        else if (strcmp(opcode_str, "DELETE_FILE") == 0) {
             // OP_DEL_FILE: First byte is the opcode, then length of string, then the string
             code[code_size++] = OP_DEL_FILE;
             size_t arg_len = strlen(arg);

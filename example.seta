@@ -1,0 +1,4 @@
+DELETE_FILE test.txt
+PUSH deleted file test.txt
+PRINT
+END
